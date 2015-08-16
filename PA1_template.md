@@ -146,7 +146,7 @@ plot(avg.steps.data$seq,
      avg.steps.data$steps, type = "l",
      main = "Average number of steps taken across all days",
      ylab = "Average number of steps",
-     xlab = "5-minute interval")
+     xlab = "Order of 5-minute interval")
 ```
 
 ![](PA1_template_files/figure-html/line.plot-1.png) 
@@ -330,7 +330,7 @@ xyplot(steps ~ interval | day, data = avg.steps.data2,
        layout = c(1, 2), type = "l",
        main = "Average number of steps taken",
        ylab = "Average number of steps",
-       xlab = "5-minute interval")
+       xlab = "Order of 5-minute interval")
 ```
 
 ![](PA1_template_files/figure-html/panel.plot-1.png) 
